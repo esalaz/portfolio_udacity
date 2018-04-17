@@ -1,4 +1,14 @@
-.project{
+#projects{
   background; red;
   font-family: 'Volkhov', serif;
+  margin: 1em;
+}
+.brand-logo{
+  font-family: 'Volkhov', serif;
+}
+.welcome-text{
+  font-family: 'Volkhov', serif;
+}
+.project-container{
+  display: flex;
 }

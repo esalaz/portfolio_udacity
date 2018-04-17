@@ -5,14 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <!-- Material Icons -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="./css/materialize.css"  media="screen,projection"/>
     <!-- My CSS  -->
     <link rel="stylesheet" href="./css/index.css">
     <title>Erik-WebDev</title>
   </head>
-  <body>
+  <body class="container">
     <nav>
+      <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Erik Salazar</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <!-- I want this to slide down to projects section when selected -->
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="social.html">Social</a></li>
+        <li><button>Resume!</button></li>
+      </ul>
+    </div>
 
     </nav>
     <header class="carousel">
@@ -23,18 +34,56 @@
     </header>
     <main>
     </main>
-    <section>
-      <div class="project-container">
-        <div id="projects">
-          <h1> hi </h1>
+    <h1 class="welcome-text"> Welcome to my Portfolio </h1>
+    <section class="project-container container">
+      <div id="projects">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/images/locals-screenshot.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Locals<i class="material-icons right">more_vert</i></span>
+            <p><a href="#">View on Github!</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Locals<i class="material-icons right">close</i></span>              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
         </div>
-        <div id="projects">
+      </div>
+      <div id="projects">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/images/locals-screenshot.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Locals<i class="material-icons right">more_vert</i></span>
+            <p><a href="#">View on Github!</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Locals<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
         </div>
-        <div id="projects">
+      </div>
+      <div id="projects">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./assets/images/locals-screenshot.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Locals<i class="material-icons right">more_vert</i></span>
+            <p><a href="#">View on Github!</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Locals<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
         </div>
       </div>
     </section>
     <footer>
+      
+      jdsd
     </footer>
 
   <!-- jQuery -->
