@@ -17,6 +17,7 @@ section ul{
 
 }
 .social-links{
+  text-align: center;
 }
 section ul li{
   list-style: none;
@@ -52,19 +53,19 @@ section ul li:hover::before{
   left: 0;
   transform: scale(.9);
 }
-section ul li:nth-child(1):before{
+section ul li:nth-child(2):before{
   background: #3B5998;
 }
-section ul li:nth-child(2):before{
+section ul li:nth-child(3):before{
   background: #007bb6
 }
-section ul li:nth-child(3):before{
+section ul li:nth-child(4):before{
   background: #25292E
 }
-section ul li:nth-child(4):before{
+section ul li:nth-child(5):before{
   background: #CC181E
 }
-section ul li:nth-child(5):before{
+section ul li:nth-child(6):before{
   background: #55ACEE;
 }
 .fa-facebook-f{
@@ -81,4 +82,14 @@ section ul li:nth-child(5):before{
 }
 .fa-youtube{
   color: white
+}
+.circle-img{
+  border-radius: 50%;
+}
+.my-image{
+  display: block;
+  height: 18em;
+  width: 13em;
+  margin: auto;
+  padding: 10px;
 }
