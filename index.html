@@ -18,28 +18,28 @@
     <title>Erik-WebDev</title>
 
   </head>
-  <body class="container">
+  <body>
 
     <nav>
-      <div class="nav-wrapper">
+      <div class="nav-wrapper red darken-2">
         <a href="#" class="brand-logo">Erik Salazar</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <!-- I want this to slide down to projects section when selected -->
           <li><a href="projects.html">Projects</a></li>
           <li><a href="social.html">Social</a></li>
-          <li><button>Resume!</button></li>
+          <li><a class="waves-effect waves-light btn">Resume</a></li>
         </ul>
       </div>
     </nav>
 
-    <header class="carousel">
-     <a class="carousel-item" href="#one!"><img src="./assets/images/justme.jpg"></a>
-     <a class="carousel-item" href="#two!"><img src="./assets/images/hackathon-namecoach.jpg"></a>
-     <a class="carousel-item" href="#three!"><img src="./assets/images/group-ga.jpg"></a>
-     <a class="carousel-item" href="#four!"><img src="./assets/images/class-ga.jpg"></a>
+    <header>
+      <div class="parallax-container container">
+        <div class="parallax"><img src="./assets/images/justme.jpg"></div>
+      </div>
     </header>
-
-    <h1 class="welcome-text"> Welcome to my Portfolio </h1>
+    <div class="welcome-text container">
+      <h1> Welcome to my Portfolio </h1>
+    </div>
 
     <main class="project-container container">
       <div id="projects">
@@ -59,14 +59,14 @@
       <div id="projects">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/locals-screenshot.jpg">
+            <img class="activator" src="./assets/images/petstagram-screenshot.jpg">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Locals<i class="material-icons right">more_vert</i></span>
+            <span class="card-title activator grey-text text-darken-4">Petstagram<i class="material-icons right">more_vert</i></span>
             <p><a href="#">View on Github!</a></p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Locals<i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">Petstagram<i class="material-icons right">close</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
         </div>
@@ -74,50 +74,39 @@
       <div id="projects">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/images/locals-screenshot.jpg">
+            <img class="activator" src="./assets/images/in-dev.jpg">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Locals<i class="material-icons right">more_vert</i></span>
+            <span class="card-title activator grey-text text-darken-4">DevHelper<i class="material-icons right">more_vert</i></span>
             <p><a href="#">View on Github!</a></p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Locals<i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">DevHelper<i class="material-icons right">close</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
         </div>
       </div>
     </main>
+
     <section class="container">
-      <ul class="social-links">
-        <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-        <li><a href="index.html"><i class="fab fa-github"></i></a></li>
-        <li><a href="index.html"><i class="fab fa-youtube"></i></a></li>
-        <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+
+      <ul class="social-links ">
+        <h1 class="social-text">Follow Me!</h1>
+        <li><a href="https://www.facebook.com/profile.php?id=100010496382117"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/esalaz/"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://github.com/esalaz"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UC2vDII5z-Ym-cD5DacIyQwA?view_as=subscriber"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://twitter.com/esalaz415"><i class="fab fa-twitter"></i></a></li>
       </ul>
     </section>
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Footer Content</h5>
-            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <aside class="skills-container container">
+    </aside>
+
+    <footer class="page-footer red darken-2">
       <div class="footer-copyright">
-        <div class="container">
-          © 2014 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        <div class="container black-text">
+          © 2018 Copyright Text
+          <a class="black-text text-lighten-4 right" href="#!">More Links</a>
         </div>
       </div>
     </footer>

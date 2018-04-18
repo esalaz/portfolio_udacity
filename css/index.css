@@ -14,8 +14,18 @@ body{
 .welcome-text{
   font-family: 'Volkhov', serif;
   background: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .project-container{
   display: flex;
   background: white;
+}
+.portfolio-name{
+  font-family: 'Volkhov', serif;
+  color: maroon;
+}
+.social-text{
+  text-align: center;
+  bottom: 1em;
 }
